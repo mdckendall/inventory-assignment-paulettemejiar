@@ -7,10 +7,11 @@ class Main {
 
 public static void main(String[] args) {
   Scanner input = new Scanner(System.in);
-    ArrayList<Inventory> itemList = new ArrayList<Inventory>();  
+    
     Inventory item ;
   
   while(true){
+    ArrayList<Inventory> itemList = new ArrayList<>();  
       System.out.println(
       "Press 1 to add an item.\nPress 2 to delete an item.\nPress 3 to update an item.\nPress 4 to show all items.\nPress 5 to quit the program.");
       int keys = input.nextInt();
