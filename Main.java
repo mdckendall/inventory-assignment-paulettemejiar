@@ -100,7 +100,6 @@ public static void main(String[] args) {
           int p = input.nextInt();
         for (Inventory i : itemList){
           if (i.getSerial().equals(s)){
-            
             i.setName(n);
             i.setPrice(p);
               
