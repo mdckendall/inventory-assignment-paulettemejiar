@@ -7,7 +7,7 @@ class Main {
 
 public static void main(String[] args) {
   Scanner input = new Scanner(System.in);
-    ArrayList<Inventory> itemList = new ArrayList<>();  
+    ArrayList<Inventory> itemList = new ArrayList<Inventory>();  
     Inventory item ;
   
   while(true){
