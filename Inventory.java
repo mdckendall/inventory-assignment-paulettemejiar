@@ -1,4 +1,4 @@
- class Inventory{
+ public class Inventory{
    private String name;
    private String serial;
    private int price;
